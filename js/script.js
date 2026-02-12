@@ -37,7 +37,7 @@ async function getSongs(folder) {
     songUL.innerHTML = ""
     for (const song of songs) {
         songUL.innerHTML = songUL.innerHTML + `<li>
-                                <img src="music.svg" alt="">
+                                <img src="img/music.svg" alt="">
                                 <div class="info">
                                     <div>${song.replaceAll("%20", " ")} </div>
                                     <div>Harry</div>
